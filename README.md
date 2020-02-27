@@ -16,3 +16,6 @@ docker-compose up
 
 Finally, you can localy execute health_check.sh and check that evertyhing is OK.
 
+
+Note: Please note that this Java application require npm install express (Express framework). For purpose of demo I have localy executed npm init to generate package.json & package-lock.json files.
+
