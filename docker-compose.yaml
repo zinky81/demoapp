@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  demoapp:
+    container_name: demo22
+    image: demo22:latest
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      PGDATA: /data/postgres
+    ports:
+      - "5432:5432"
+      - "8080:8080"
+      - "8081:8081"
